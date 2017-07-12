@@ -48,16 +48,11 @@ extension Array {
 }
 
 let fibs = [1, 2, 3, 4, 5]
+let name = ["zhu", "deng", "quan"]
 
 // ---------------------------
 
-let suits = ["♠", "♥", "♣", "♦"]
-let ranks = ["J","Q","K","A"]
+let slice = fibs[1..<fibs.endIndex]
+type(of: slice)
 
-let result = suits.flatMap { suit in
-    ranks.flatMap{ rank in
-        (suit, rank)
-    }
-}
 
-print(result)
