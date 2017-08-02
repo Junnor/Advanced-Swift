@@ -37,3 +37,31 @@ for i in 1...3 {
 for f in a {
     print("\(f())", terminator: " ")
 }
+
+
+let stringNumbers = ["1", "2", "three"]
+
+let intNumbers = stringNumbers.map { Int($0) }
+
+stringNumbers
+intNumbers
+
+
+
+let j = 5
+
+if case 0...10 = j {
+    print("\(j) in it")
+}
+
+
+
+
+
+
+
+
+
+
+
+
